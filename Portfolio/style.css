@@ -1,0 +1,620 @@
+body{
+  margin-top: 70px; 
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+#home-content {
+	max-width: 100%; 
+	max-height: 100%;
+}
+
+
+
+p{
+  font-family: Arial, Cambria, "Hoefler Text", "Liberation Serif", sans-serif, Times, "Times New Roman", "serif";
+}
+
+.showcase-left {
+	padding-left: 10%;
+}
+
+#gallery h2 {
+	margin-left: 20px;
+}
+  
+
+.w3-top {
+	position: absolute;
+	background: none;
+	border: 0;
+	color: grey;
+	font-family: Poppins;
+	font-size: 18px;
+	left: -2px;
+	top: 17px; 
+	font-size: 20px;
+	;
+  
+} 
+
+
+.w3-right .w3-mobile {
+	margin-top: 7px;
+
+}
+
+.w3-right .w3-mobile:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	position: absolute; 
+	font-family: Poppins;
+}
+
+.navbar-default{
+  background: none;
+  border:0;
+}
+
+.w3-top img {
+	margin-left: 50px;
+}
+
+.navbar-brand{
+ 
+}
+
+.thumbnails {
+	margin-right: -15px;
+}
+
+.thumbnails a {
+	float: left;
+	padding-right: 0px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.thumbnails img {
+	display: block; 
+}
+
+.thumbnails:hover img {
+	opacity: .6;
+	transform: scale(.92);
+}
+
+.thumbnails img:hover {
+	opacity: 1;
+	transform: scale(1);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+div {
+	display:block;
+}
+
+
+.hr-page-header {
+	width: 80%;
+	border: none;
+	
+	margin-top: 100px;
+	margin-left: 100px;
+    height: 1px;
+    /* Set the hr color */
+    color:#091747; /* old IE */
+    background-color: #091747; /* Modern Browsers */
+}
+
+
+aside {
+	display: block;
+}
+
+.search-form {
+	position: relative; 
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+
+.sidebar .widget {
+	padding: 10px 25px;
+	box-shadow: 0 0 55px #f3f3f3;
+
+}
+ 
+li {
+	list-style-type: none;
+    float: left;
+}
+
+a {
+	text-decoration: none;
+    display: block;
+	padding: 10px;
+}
+
+/*Social media sections */
+#social-media-footer {
+	width: 100%;
+	float: right;
+}
+
+.fa-envelope:hover {
+	opacity: 0.7;
+}
+
+.fa-linkedin-in:hover {
+	opacity: 0.7;
+}
+
+.fa-phone:hover {
+	opacity: 0.7;
+}
+
+.social-menu {
+	padding-right: 10px;
+	margin-top: -50px;
+}
+
+.social-menu-contact {
+	margin-top: -50px;
+	padding-right: 15px;
+	font-size: 5px;
+}
+
+/*Lightbox gallery section*/
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.about-block {
+		margin-bottom: 80px;
+		border-color: #091747;
+}
+
+
+.services-block {
+		margin-bottom: 80px;
+		border-color: #091747;
+}
+
+
+
+#services-list {
+	list-style: square;
+
+}
+
+#reviews {
+	padding-left: 50px;
+}
+
+
+
+.about-block-title {
+	color: #091747;
+	font-size: 20px;	
+} 
+ 
+
+.services-block-title {
+	color: #091747;
+	font-size: 20px;	
+} 
+
+.gallery-block-title {
+	color: #091747;
+	font-size: 20px;
+}
+
+.contact-block-title {
+	color: #091747;
+	font-size: 20px;
+} 
+
+#breadcrumb {
+    color: #ffffff;
+    padding: 15px 0;
+	margin-top: 100px;
+    background:#C3C4CA;
+    clear: both;
+    overflow: hidden;
+}
+
+#breadcrumb li {
+    display: block;
+    float: left;
+    list-style: outside none none;
+    padding-right: 2px;
+}
+
+#breadcrumb a {
+	text-decoration: none;
+}
+
+#breadcrumb li a ::after{
+	content:"/";
+    margin-left: 10px;
+	font-family: 'FontAwesome';
+}
+
+.trail-items .trail-end {
+	color: #091747;
+}
+
+a:hover {
+	color: #091747;
+	text-decoration: underline;
+}
+
+li {
+	display: list-item;
+    text-align: webkit-match-parent;
+}
+
+#about {
+	font-family:  Arial, Cambria, "Hoefler Text", "Liberation Serif", sans-serif, Times, "Times New Roman", "serif";
+	line-height: 30px;
+	font-size: 22px;
+	} 
+
+.about-header {
+	font-size: 25px;
+}
+
+
+
+#gallery-heading {
+	padding-left: 50px;
+	width: 100%;
+}
+
+#gallery-heading p {
+	padding-left: 125px;
+}
+
+#gallery-heading img {
+	height: 100px; 
+	width: 100px; 
+	float:left;
+}
+
+
+
+
+#services-II {
+	display: block;
+	padding-left: 50px;
+}
+
+.services-section-II {
+	 -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	 column-rule: 3px solid #8A090B;
+	width: 100%;
+	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 22px;
+}
+
+.ul-services-section {
+	color: #8A090B; 
+	padding-bottom: 15%; 
+	padding-left: 10%; 
+	padding-right: 5%; 
+	font-size: 22px; 
+	width: 100%; 
+	column-count: 2; 
+	column-gap: 1%; 
+}
+
+
+.contact-heading {
+	margin-bottom: 50px;
+	font-size: 5px;
+}
+
+.contact-heading-title {
+	
+	font-size: 25px;
+}
+
+.contact-heading-II {
+	float: left;
+	padding-left: 200px;
+	 
+}
+
+.w3-btn-block {
+	background-color: #091747;
+}
+
+.section-1 {
+	background-color: #091747;
+	padding: 100px;
+}
+
+.section-1 h2{
+	color: white;
+}
+
+.section-1 p {
+	color: white;
+}
+
+
+.section {
+padding: 30px 0 30px 0;
+}
+
+.section h2{
+  padding:0;
+  margin:0;
+}
+
+.section .fa{
+  font-size:50px;
+}
+
+.section img{
+  width:100%;
+}
+
+
+
+#footer {
+   position: relative;
+   bottom: -10px;
+   width:100%;
+   height: 80px;
+   background-color: #091747;
+   color: white;
+}
+
+
+@media only screen and (max-width:600px){
+  body{
+    margin-top:190px;
+  }
+
+  .showcase {
+    height:400px;
+    padding: 60px 0;
+	margin-top: 100px;
+  }
+}
+ 
+
+
+#showcase {
+	margin-bottom: 100px; 
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  margin-left: -30px;
+  margin-top: 50px;
+}
+
+#showcase .showcase-right{
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-default {
+	margin-left: 30px;
+}
+ 
+#testimonial{
+  background:#f1f1f1;
+  padding-top: 5%;
+  text-align:center;
+ 
+}
+
+#testimonial p{
+  font-size:32px;
+  font-family: 'Josefin Sans';
+  color:#000;
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+.info-left {
+	
+	width: 100%;
+	height: 100%;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact{
+  background:url(../img/image3.png);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+
+
+ 
+#nav-footer {
+	width: 100%;
+	height: 100%;
+	align-content: center;
+	background: none;
+	border: 0;
+	color: grey;
+	font-family: Poppins;
+	font-size: 18px;
+}
+
+.home-header {
+	width: 80%;
+	clear: both;
+	border: none;
+    height: 1px;
+    /* Set the hr color */
+    color:#091747; /* old IE */
+    background-color: #091747; /* Modern Browsers */
+}
+
+
+footer{
+  padding: 30px;
+}
